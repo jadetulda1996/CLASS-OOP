@@ -1,16 +1,66 @@
 <?php
-?>
 
+// Displaying output
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+// Variables
+
+// Data Types
+/**
+ * String
+ * Integer
+ * Float
+ * Boolean
+ * Array
+ */
+
+// Arithmetic Operators
+/**
+ * +, -, *, /, %, ** (exponential)
+ */
+
+// Assignment Operators
+/**
+ * =
+ * += , -= , *=, /=
+ */
+
+// Comparison Operators
+/**
+ * ==, !=, ===, !==, <, >, <=, >=
+ */
+
+// Increment / Decrement Operator
+/**
+ * ++, --
+ * Pre Inc/Dec
+ * Post Inc/Dec
+ */
+
+// Logical Operator
+/**
+ * &&, || 
+ */
+
+// Conditional Statements
+/**
+ * IF
+ * ELSE
+ * ELSEIF
+ */
+
+// Switch Statements
+
+// Loops
+/**
+ * While() {}
+ * Do {} while();
+ * For(init; condition; increment/decrement){}
+ * Foreach(source as var_placeholder) {}
+ */
+
+// Arrays
+/**
+ * Indexed Array (standard)
+ * Associative array
+ * Multi-dimensional array
+ */
