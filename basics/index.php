@@ -64,3 +64,5 @@
  * Associative array
  * Multi-dimensional array
  */
+
+echo "IT 3b only.";
