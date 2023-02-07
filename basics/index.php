@@ -1,8 +1,11 @@
 <?php
 
 // Displaying output
+// echo "IT 3c Only.";
 
 // Variables
+$var_name;
+const PARAM_VAR=2;
 
 // Data Types
 /**
@@ -28,6 +31,7 @@
 /**
  * ==, !=, ===, !==, <, >, <=, >=
  */
+// echo 1 !== '1' ? 'true' : 'false';
 
 // Increment / Decrement Operator
 /**
@@ -35,6 +39,8 @@
  * Pre Inc/Dec
  * Post Inc/Dec
  */
+$a = 1;
+echo ($a++ + 1 - ++$a);
 
 // Logical Operator
 /**
@@ -64,5 +70,3 @@
  * Associative array
  * Multi-dimensional array
  */
-
-echo "IT 3c Only.";
