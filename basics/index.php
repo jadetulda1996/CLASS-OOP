@@ -1,8 +1,10 @@
 <?php
 
 // Displaying output
+// echo "IT 3b only.";
 
 // Variables
+$var_name;
 
 // Data Types
 /**
@@ -28,6 +30,7 @@
 /**
  * ==, !=, ===, !==, <, >, <=, >=
  */
+// echo 1 === "1" ? 'true' : 'false';
 
 // Increment / Decrement Operator
 /**
@@ -35,7 +38,8 @@
  * Pre Inc/Dec
  * Post Inc/Dec
  */
-
+// $a = 1;
+// echo "the value of a is ".  ++$a . "<br/>the value of a after post increment is ".$a;
 // Logical Operator
 /**
  * &&, || 
@@ -57,6 +61,10 @@
  * For(init; condition; increment/decrement){}
  * Foreach(source as var_placeholder) {}
  */
+// $a = array('A', 'B', 'C');
+// foreach($a as $val) {
+//     echo $val;
+// }
 
 // Arrays
 /**
@@ -64,5 +72,14 @@
  * Associative array
  * Multi-dimensional array
  */
+$a = array (
+    array(0,1,2),
+    array(3,"4",5)
+);
 
-echo "IT 3b only.";
+// var_dump($a);
+
+echo "<pre>";
+var_dump($a[1]);
+echo "</pre>";
+
